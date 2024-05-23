@@ -36,8 +36,35 @@ i {
 
 .hero {
     display: flex;
-    padding: 200px 20px;
+    padding: 100px 20px;
+    background: black;
+   
+}
+.left {
+    width: 50%;
+   padding: 60px 200px 0px 400px ;
+}
+.left h1, p {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.left p {
+    padding: 20px 200px 20px 0px ;
+    line-height: 1.3em;
+    
+}
+.left button {
+    padding: 12px 30px 12px 30px ;
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+}
+.right {
+    width: 50%;
 }
 .right img {
-    width: 50%;
+    width: 30%;
 }
