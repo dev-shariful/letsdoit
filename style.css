@@ -4,7 +4,7 @@ header {
     margin: auto;
     width: 100%;
     max-width: ;
-    background-color: black;
+    background-color: rgb(21, 21, 21);
     padding: 20px 20px;
     margin: 0;
 }
@@ -29,15 +29,15 @@ li > a {
     font-family: "Roboto", sans-serif;
     color: white;
 } 
-i {
+header i {
     color: white;
-    width: ;: 80px;
+    width: 80px;
 }
 
 .hero {
     display: flex;
     padding: 100px 20px;
-    background: black;
+    background: rgb(0, 0, 0);
    
 }
 .left {
@@ -52,7 +52,7 @@ i {
 .left p {
     padding: 20px 200px 20px 0px ;
     line-height: 1.3em;
-    
+
 }
 .left button {
     padding: 12px 30px 12px 30px ;
@@ -67,4 +67,47 @@ i {
 }
 .right img {
     width: 30%;
+}
+.ipad {
+    background-color: black;
+    border-top: 1px solid rgb(220, 219, 219);
+    margin: auto;
+    text-align: center;
+    padding: 50px 0px ;
+}
+.ipad h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 55px ;
+}
+.ipad h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+    padding: 20px 0px
+}
+.ipad-btn .btn-1 {
+    padding: 15px 20px;
+    background-color: #0077ed;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+
+}
+.ipad-btn .btn-2 {
+    padding: 15px 25px;
+    background-color: rgba(0, 0, 255, 0);
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #0077ed;
+    border-radius: 30px;
+    margin-left: 20px;
+
+}
+.ipad img {
+    margin-top: 20px;
 }
