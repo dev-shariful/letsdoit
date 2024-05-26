@@ -203,3 +203,64 @@ header i {
     margin-top: 20px;
    padding-bottom: 130px;
 }
+.w-main {
+    display: flex;
+    width: 100%;
+    /* max-width: 100%; */
+    margin: auto;
+    padding: 0;
+}
+.wdc, .watch {
+    width: 50%;
+    background-color: black;
+    text-align: center;
+    
+}
+.wdc p {
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.3em;
+    padding: 20px 0px 20px 0px ;
+    margin: 20px 0px 0px 0px;
+}
+.watch p {
+    color: white;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.3em;
+    padding: 5px 0px 20px 20px ;
+}
+.wdc button, .watch button {
+    padding: 15px 20px;
+    background-color: #0077ed;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    margin: 0px 0px 0px 0px;
+}
+.wdc {
+    padding: 20px 0px 0px 0px;
+    margin: 10px 5px 10px 10px;
+}
+.watch {
+    padding: 40px;
+    margin: 10px 10px 10px 5px;
+    display: inline-block;
+}
+.watch img, .watch button{
+   display: block;
+   margin: auto;
+      
+}
+.wdc img {
+    width: 50%;
+}
+.watch img {
+    padding: 20px 0px 0px 30px;
+
+}
