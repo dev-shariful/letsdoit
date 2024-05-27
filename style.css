@@ -111,6 +111,10 @@ header i {
     margin-top: 20px;
     margin-bottom: -5px;
 }
+.mackbook, #slide {
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
 .ipad {
     background-color: black;
     border-bottom: 10px solid rgb(220, 219, 219);
