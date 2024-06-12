@@ -2,12 +2,12 @@
 
 var i = 0;
 var images = [];
-var time = 1000;
+var time = 3000;
 
 //image list
-images[0] = "img/applewatch.png";
-images[1] = "img/iphone.png";
-images[2] = "img/ipad.png";
+images[0] = "img/macbook.png";
+images[1] = "img/iphone-camera.png";
+images[2] = "img/apple-card.png";
 
 
 function changeImg(){

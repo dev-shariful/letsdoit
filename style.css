@@ -8,6 +8,10 @@ header {
     padding: 20px 20px;
     margin: 0;
 }
+.head {
+    
+    
+}
 * {
     margin: 0  ;
     padding: 0;
@@ -27,11 +31,14 @@ nav li {
 li > a {
     text-decoration: none;
     font-family: "Roboto", sans-serif;
-    color: white;
+    font-size: 13px ;
+    font-weight: 300;
+    color: rgb(217, 217, 217);
 } 
 header i {
     color: white;
     width: 80px;
+    font-weight: 300px;
 }
 
 /* .hero {
@@ -96,6 +103,16 @@ header i {
     border: none;
     border-radius: 30px;
 }
+.macbook-btn .btn-1:hover {
+    padding: 15px 20px;
+    background-color: #000000;
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+    transition: 0.5s;
+}
 .macbook-btn .btn-2 {
     padding: 15px 25px;
     background-color: rgba(0, 0, 255, 0);
@@ -106,6 +123,18 @@ header i {
     border-radius: 30px;
     margin-left: 20px;
 } 
+.macbook-btn .btn-2:hover {
+    padding: 15px 25px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    margin-left: 20px;
+    transition: 0.5s;
+} 
+
 
 .macbook img {
     margin-top: 20px;
@@ -267,4 +296,59 @@ header i {
 .watch img {
     padding: 20px 0px 0px 30px;
 
+}
+
+footer {
+    background-color: #f5f5f7;
+    padding: 20px;
+    margin: 20px 0px 0px 0px;
+
+} 
+.text {
+    width: 50%;
+    margin: auto;
+    
+
+}
+.text p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    line-height: 2em;
+    margin-bottom: 30px;
+}
+.rows {
+    width: 50%;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #e3e3e3;
+    padding: 20px 0px 20px 0px;
+    
+}
+.row h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    font-size: 13px;
+    margin-top: 30px;
+}
+.row ul {
+    display: block;
+}
+.row ul li {
+    list-style: none;
+}
+.row ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 2em;
+}
+.row ul li a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #808080;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 2em;
+    text-decoration: underline black;
 }
